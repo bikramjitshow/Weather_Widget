@@ -1,0 +1,199 @@
+.weather-container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.weather {
+  &.weather-card {
+    // width: 800px;
+    // border: 1px solid #000;
+    margin: 0 auto;
+
+    .weather-info-img {
+      img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .weather-info-cont {
+      // padding: 0 10% 7% 10%;
+      padding: 0 16.500vw 7.125vw 16.500vw;
+
+      .weather-info {
+        // margin-top: 79px;
+        margin-top: 9.875vw;
+
+        .day {
+          font-family: $poppins-font;
+          font-style: normal;
+          font-weight: 300;
+          // font-size: 27.4213px;
+          font-size: 3.428vw;
+          // line-height: 41px;
+          line-height: normal;
+          color: $black-1;
+          text-transform: uppercase;
+        }
+
+        .type {
+          font-family: $poppins-font;
+          font-style: normal;
+          font-weight: 500;
+          // font-size: 40px;
+          // line-height: 60px;
+          font-size: 5vw;
+          line-height: normal;
+          letter-spacing: 0.1em;
+          color: $yellow-1;
+          text-transform: uppercase;
+        }
+      }
+
+      .temparature-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .temparature {
+          font-family: $poppins-font;
+          font-style: normal;
+          font-weight: 300;
+          // font-size: 187.849px;
+          font-size: 23.481vw;
+          // line-height: 282px;
+          line-height: normal;
+          color: $black-1;
+          // margin-right: 20px;
+          margin-right: 2.500vw;
+
+          sup {
+            top: -1.3em;
+            font-size: 35%;
+          }
+
+          span {
+            font-size: 80%;
+          }
+        }
+
+        .right-panel {
+          p {
+            display: flex;
+            font-family: $poppins-font;
+            font-style: normal;
+            font-weight: 300;
+            // font-size: 29.0863px;
+            font-size: 3.636vw;
+            // line-height: 44px;
+            line-height: normal;
+            color: $black-1;
+            text-align: left;
+            // margin-bottom: 10px;
+            margin-bottom: 1.250vw;
+            text-transform: uppercase;
+
+            span {
+              // margin-right: 23px;
+              margin-right: 2.875vw;
+            }
+
+            img {
+              // width: 22px;
+              // max-width: 22px;
+              // margin-right: 6px;
+              width: 2.750vw;
+              max-width: 2.750vw;
+              // margin-right: 0.750vw;
+              margin-right: 2.875vw;
+            }
+          }
+        }
+      }
+
+      .tomorrow-weather-info {
+        // margin-top: 43px;
+        margin-top: 5.375vw;
+
+        .bottom-panel {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          // margin-top: 14px;
+          margin-top: 1.750vw;
+
+          p {
+            display: flex;
+            font-family: $poppins-font;
+            font-style: normal;
+            font-weight: 300;
+            // font-size: 29.0863px;
+            font-size: 3.636vw;
+            // line-height: 44px;
+            line-height: normal;
+            color: $black-1;
+            text-align: left;
+            text-transform: uppercase;
+
+            span {
+              // margin-right: 10px;
+              margin-right: 1.250vw;
+            }
+
+            img {
+              // width: 22px;
+              // max-width: 22px;
+              // margin-right: 6px;
+              width: 2.750vw;
+              max-width: 2.750vw;
+              // margin-right: 0.750vw;
+              margin-right: 1.250vw;
+            }
+          }
+        }
+      }
+
+      .time-info {
+        // margin-top: 90px;
+        margin-top: 11.250vw;
+
+        .time {
+          font-family: $poppins-font;
+          font-style: normal;
+          font-weight: 500;
+          // font-size: 88.8903px;
+          // line-height: 133px;
+          font-size: 11.111vw;
+          line-height: normal;
+          color: $black-1;
+        }
+
+        .date {
+          font-family: $poppins-font;
+          font-style: normal;
+          font-weight: 600;
+          // font-size: 28px;
+          // line-height: 42px;
+          font-size: 3.500vw;
+          line-height: normal;
+          color: $black-1;
+        }
+
+        .address {
+          font-family: $poppins-font;
+          font-style: normal;
+          font-weight: 300;
+          // font-size: 26px;
+          // line-height: 39px;
+          font-size: 3.250vw;
+          line-height: normal;
+          color: $black-1;
+        }
+      }
+    }
+  }
+}
