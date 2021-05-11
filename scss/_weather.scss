@@ -49,7 +49,7 @@
           font-size: 5vw;
           line-height: normal;
           letter-spacing: 0.1em;
-          color: $yellow-1;
+          color: $blue-1;
           text-transform: uppercase;
         }
       }
@@ -192,6 +192,14 @@
           font-size: 3.250vw;
           line-height: normal;
           color: $black-1;
+        }
+      }
+
+      &.sunny-weather-info {
+        .weather-info {
+          .type {
+            color: $yellow-1;
+          }
         }
       }
     }

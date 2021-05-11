@@ -606,7 +606,7 @@ video {
   font-size: 5vw;
   line-height: normal;
   letter-spacing: 0.1em;
-  color: #F6C44D;
+  color: #88AACF;
   text-transform: uppercase;
 }
 
@@ -722,6 +722,10 @@ video {
   color: #000000;
 }
 
+.weather.weather-card .weather-info-cont.sunny-weather-info .weather-info .type {
+  color: #F6C44D;
+}
+
 html, body {
   scroll-behavior: smooth;
 }
@@ -732,5 +736,17 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #333333;
+}
+
+.blue-text {
+  color: #88AACF !important;
+}
+
+.yellow-text {
+  color: #F6C44D !important;
+}
+
+.black-text {
+  color: #000000 !important;
 }
 /*# sourceMappingURL=style.css.map */
