@@ -606,7 +606,7 @@ video {
 }
 
 .weather.weather-card .weather-info-cont {
-  padding: 0 16.500vw 7.125vw 16.500vw;
+  padding: 0 16.5vw 7.125vw 16.5vw;
 }
 
 .weather.weather-card .weather-info-cont .weather-info {
@@ -634,6 +634,10 @@ video {
   text-transform: uppercase;
 }
 
+.weather.weather-card .weather-info-cont .weather-info.rain-weather-info, .weather.weather-card .weather-info-cont .weather-info.snow-weather-info {
+  margin-top: 5.25vw;
+}
+
 .weather.weather-card .weather-info-cont .temparature-wrap {
   display: flex;
   align-items: center;
@@ -647,7 +651,7 @@ video {
   font-size: 23.481vw;
   line-height: normal;
   color: #000000;
-  margin-right: 2.500vw;
+  margin-right: 2.5vw;
 }
 
 .weather.weather-card .weather-info-cont .temparature-wrap .temparature sup {
@@ -668,7 +672,7 @@ video {
   line-height: normal;
   color: #000000;
   text-align: left;
-  margin-bottom: 1.250vw;
+  margin-bottom: 1.25vw;
   text-transform: uppercase;
 }
 
@@ -677,8 +681,8 @@ video {
 }
 
 .weather.weather-card .weather-info-cont .temparature-wrap .right-panel p img {
-  width: 2.750vw;
-  max-width: 2.750vw;
+  width: 2.75vw;
+  max-width: 2.75vw;
   margin-right: 2.875vw;
 }
 
@@ -690,7 +694,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1.750vw;
+  margin-top: 1.75vw;
 }
 
 .weather.weather-card .weather-info-cont .tomorrow-weather-info .bottom-panel p {
@@ -706,17 +710,17 @@ video {
 }
 
 .weather.weather-card .weather-info-cont .tomorrow-weather-info .bottom-panel p span {
-  margin-right: 1.250vw;
+  margin-right: 1.25vw;
 }
 
 .weather.weather-card .weather-info-cont .tomorrow-weather-info .bottom-panel p img {
-  width: 2.750vw;
-  max-width: 2.750vw;
-  margin-right: 1.250vw;
+  width: 2.75vw;
+  max-width: 2.75vw;
+  margin-right: 1.25vw;
 }
 
 .weather.weather-card .weather-info-cont .time-info {
-  margin-top: 11.250vw;
+  margin-top: 11.25vw;
 }
 
 .weather.weather-card .weather-info-cont .time-info .time {
@@ -732,7 +736,7 @@ video {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 3.500vw;
+  font-size: 3.5vw;
   line-height: normal;
   color: #000000;
 }
@@ -741,7 +745,7 @@ video {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 3.250vw;
+  font-size: 3.25vw;
   line-height: normal;
   color: #000000;
 }
