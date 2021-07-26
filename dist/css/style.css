@@ -594,6 +594,10 @@ video {
   margin-left: auto;
 }
 
+.weather {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .weather.weather-card {
   margin: 0 auto;
 }
@@ -652,6 +656,7 @@ video {
   line-height: normal;
   color: #000000;
   margin-right: 2.5vw;
+  white-space: nowrap;
 }
 
 .weather.weather-card .weather-info-cont .temparature-wrap .temparature sup {
@@ -756,6 +761,7 @@ video {
 
 html, body {
   scroll-behavior: smooth;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 body {

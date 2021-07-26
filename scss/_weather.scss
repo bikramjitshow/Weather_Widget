@@ -6,6 +6,8 @@
   margin-left: auto;
 }
 .weather {
+  background-color: rgba(255, 255, 255, 0.5);
+  
   &.weather-card {
     // width: 800px;
     // border: 1px solid #000;
@@ -74,6 +76,7 @@
           color: $black-1;
           // margin-right: 20px;
           margin-right: 2.5vw;
+          white-space: nowrap;
 
           sup {
             top: -1.3em;
